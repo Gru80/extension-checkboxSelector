@@ -2,24 +2,134 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .description {
+                font-size: medium;
+                color: darkmagenta;
+                margin: 10px;
+                border-width: 2px;
+                border-radius: 10px;
+                border-color: darkmagenta;
+                border-style: solid;
+                padding: 10px 10px 10px 40px;
+            }
+
+            input {
+                margin: 10px;
+            }
+
+            #top {
+                margin-bottom: 40px;
+            }
+        </style>
+        <title>Checkbox Selector Demo</title>
 
     </head>
-<body style="margin: 30px;">
-<div class="p-2">
-    <form onsubmit="return handleData()" method="post" action="https://postman-echo.com/post">
-    <input type="checkbox" name="langs" id="langs_javascript" value="JavaScript" checked> <label for="langs_javascript">JavaScript</label>
-    <input type="checkbox" name="langs" id="langs_perl" value="Perl"> <label for="langs_perl">Perl</label>
-    <input type="checkbox" name="langs" id="langs_php" value="PHP" checked> <label for="langs_php">PHP</label>
-    <input type="checkbox" name="langs" id="langs_ruby" value="Ruby"> <label for="langs_ruby">Ruby</label>
+<body style="margin: 30px;padding: 5px;">
+    <div id="top">
+        <p>
+            <ol class="description">
+                <li>Press and hold the Shift-key</li>
+                <li>Click the left mouse button and drag a rectangle selection</li>
+                <li>Release the mouse button</li>
+                <li>All checkboxes within the selection are toggled</li>
+            </p>
+    </div>
+<div>
+    <input type="checkbox" name="langs" id="c1" checked> <label for="c1">Check One</label>
+    <input type="checkbox" name="langs" id="c2" checked> <label for="c2">Check Two</label>
+    <input type="checkbox" name="langs" id="c3" checked> <label for="c3">Check Mate</label>
+    <input type="checkbox" name="langs" id="c4" checked> <label for="c4">Check Out</label>
     </form>
 </div>
-<div class="p-2">
-    <form onsubmit="return handleData()" method="post" action="https://postman-echo.com/post">
-    <br><input type="checkbox" name="langs1" id="1langs_javascript" value="JavaScript" checked> <label for="langs_javascript">JavaScript</label>
-    <br><input type="checkbox" name="langs1" id="1langs_perl" value="Perl"> <label for="langs_perl">Perl</label>
-    <br><input type="checkbox" name="langs1" id="1langs_php" value="PHP" checked> <label for="langs_php">PHP</label>
-    <br><input type="checkbox" name="langs1" id="1langs_ruby" value="Ruby"> <label for="langs_ruby">Ruby</label>
+<div>
+    <br><input type="checkbox" name="langs1" id="c5"><label for="c5">Check One</label>
+    <br><input type="checkbox" name="langs1" id="c6"><label for="c6">Check Two</label>
+    <br><input type="checkbox" name="langs1" id="c7"><label for="c7">Check Mate</label>
+    <br><input type="checkbox" name="langs1" id="c8"><label for="c8">Check Out</label>
     </form>
+</div>
+<p></p>
+<div>
+    <table>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+
+    </table>
 </div>
 </body>
 </html>
