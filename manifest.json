@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Checkbox Selector",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Press Shift-Key and make a rectangle-selection with the mouse by click-and-dragg. All checkboxes within the selection will be checked upon releasing the mouse botton.",
   "icons": {
     "48": "icons/checkbox-48.png",
@@ -10,7 +10,8 @@
   "content_scripts": [
     {
       "matches": ["*://*/*", "file:///*/*"],
-      "js": ["checkboxSelector.js"]
+      "js": ["checkboxSelector.js"],
+      "all_frames": true
     }
   ]
 }
